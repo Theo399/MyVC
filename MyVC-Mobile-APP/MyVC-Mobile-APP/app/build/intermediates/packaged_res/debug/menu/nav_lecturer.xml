@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:title="@string/home"
+            android:id="@+id/nav_l_home"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:title="@string/communicate"
+            android:id="@+id/nav_l_communicate"
+            android:icon="@drawable/ic_communicate"/>
+        <item
+            android:title="Workload Allocation"
+            android:id="@+id/nav_l_workload"
+            android:icon="@drawable/ic_assessment"/>
+        <item
+            android:title="Update Assessment"
+            android:id="@+id/nav_l_update"
+            android:icon="@drawable/ic_learning"/>
+        <item
+            android:title="Submit Complaints to"
+            android:id="@+id/nav_l_complaints"
+            android:icon="@drawable/ic_assist"/>
+        <item
+            android:title="Take Register"
+            android:id="@+id/nav_l_register"
+            android:icon="@drawable/ic_register"/>
+        <item
+            android:title="Avaliability"
+            android:id="@+id/nav_l_availability"
+            android:icon="@drawable/ic_schedule"/>
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:title="@string/logout"
+                android:id="@+id/nav_l_logout"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+
+    </item>
+
+</menu>

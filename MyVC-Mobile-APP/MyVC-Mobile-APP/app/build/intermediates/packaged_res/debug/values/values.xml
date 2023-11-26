@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF0E90E1</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F9DB22</color>
+    <string name="access_learning">Access Learning</string>
+    <string name="add_a_user">Add a user</string>
+    <string name="admin">ADMIN</string>
+    <string name="announcements">Announcements</string>
+    <string name="app_name">MyVC</string>
+    <string name="assessment_and_deadline_reminders">Assessment and Deadline Reminders</string>
+    <string name="assessment_reports">Assessment Reports</string>
+    <string name="assessment_schedules_and_timetables">Assessment Schedules and Timetables</string>
+    <string name="assessment_timetables">Assessment Timetables</string>
+    <string name="assignments">Assignments</string>
+    <string name="assist_students">Assist Students</string>
+    <string name="balance_marks">Balance Marks</string>
+    <string name="class_schedule">Class Schedule</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="communicate">Communicate</string>
+    <string name="email_heading">Email</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_username">Enter username</string>
+    <string name="gcm_defaultSenderId" translatable="false">401535026049</string>
+    <string name="generate_reports">Generate reports</string>
+    <string name="google_api_key" translatable="false">AIzaSyBThTNiil6FyOJMk6gYdablGjqF1V7LNOo</string>
+    <string name="google_app_id" translatable="false">1:401535026049:android:fb10a53f10a9e6a08d9e80</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBThTNiil6FyOJMk6gYdablGjqF1V7LNOo</string>
+    <string name="google_storage_bucket" translatable="false">myvc-8adb3.appspot.com</string>
+    <string name="grade_assessment">Grade Assessment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="learning_material">Learning Material</string>
+    <string name="lecturer">LECTURER</string>
+    <string name="lecturer_availability">Lecturer Availability</string>
+    <string name="lecturer_workload_process">Lecturer Workload Process</string>
+    <string name="login">LOGIN</string>
+    <string name="login_no_account">
+        I don\'t have an account. <font color="#FF0E90E1"><b>Register</b></font>
+    </string>
+    <string name="login_title">LOGIN</string>
+    <string name="logout">Logout</string>
+    <string name="logoutBtn">LOGOUT</string>
+    <string name="main_title">Welcome To MyVC</string>
+    <string name="maintenance_in_progress">Maintenance in progress</string>
+    <string name="manage_scheduling">Manage Scheduling</string>
+    <string name="marks_and_feedback">Marks and Feedback</string>
+    <string name="marks_balance_and_verification">Marks Balance and Verification</string>
+    <string name="monitor_workload">Monitor Workload</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="password_heading">Password</string>
+    <string name="project_id" translatable="false">myvc-8adb3</string>
+    <string name="queries">Queries</string>
+    <string name="raise_query">Raise Query</string>
+    <string name="register">REGISTER</string>
+    <string name="registerAdmin">Register</string>
+    <string name="register_have_account">
+        I already have an account. <font color="#FF0E90E1"><b>Login</b></font>
+    </string>
+    <string name="register_title">REGISTER</string>
+    <string name="role">e.g. Admin, Lecturer or Student</string>
+    <string name="role_heading">Role</string>
+    <string name="send_announcements">Send Announcements</string>
+    <string name="set_reminders">Set Reminders</string>
+    <string name="student">STUDENT</string>
+    <string name="submit">Submit</string>
+    <string name="submit_complaints">Submit Complaints</string>
+    <string name="take_register">Take Register</string>
+    <string name="track_assessment">Track Assessment</string>
+    <string name="update_status">Update Status</string>
+    <string name="username_heading">Username</string>
+    <string name="varsity_college_sandton">Varsity College Sandton</string>
+    <string name="view_marks">View Marks</string>
+    <string name="view_workload">View Workload</string>
+    <string name="you_may_proceed_to_logout">You may proceed to logout.</string>
+    <style name="Base.Theme.MyVC" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/black</item>
+    </style>
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.MyVC</item>
+    </style>
+    <style name="Theme.MyVC" parent="Base.Theme.MyVC"/>
+</resources>

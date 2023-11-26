@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_announcement.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_announcement.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/activity_login.xml",
+        "source": "com.example.myvc.app-main-7:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_availability.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_availability.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.example.myvc.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_communicate.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_communicate.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/activity_lecturer.xml",
+        "source": "com.example.myvc.app-main-7:/layout/activity_lecturer.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_assessment.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_assessment.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_register.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_reminder.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_reminder.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_schedule.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_schedule.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_l_workload.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_l_workload.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_logout.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_logout.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_workload.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_workload.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_logout.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_logout.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_home.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_home.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_learning.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_learning.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_assignment.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_assignment.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_l_queries.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_l_queries.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_material.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_material.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_report.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_report.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_l_avaliability.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_l_avaliability.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_l_update.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_l_update.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_l_communicate.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_l_communicate.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_register.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_register.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_mark.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_mark.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_mark.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_mark.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/activity_admin.xml",
+        "source": "com.example.myvc.app-main-7:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/nav_admin_header.xml",
+        "source": "com.example.myvc.app-main-7:/layout/nav_admin_header.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/activity_student.xml",
+        "source": "com.example.myvc.app-main-7:/layout/activity_student.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/nav_student_header.xml",
+        "source": "com.example.myvc.app-main-7:/layout/nav_student_header.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_assessment.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_assessment.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_query.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_query.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_l_home.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_l_home.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/activity_register.xml",
+        "source": "com.example.myvc.app-main-7:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_a_communicate.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_a_communicate.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/nav_lecturer_header.xml",
+        "source": "com.example.myvc.app-main-7:/layout/nav_lecturer_header.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_s_home.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_s_home.xml"
+    },
+    {
+        "merged": "com.example.myvc.app-mergeDebugResources-4:/layout/fragment_l_logout.xml",
+        "source": "com.example.myvc.app-main-7:/layout/fragment_l_logout.xml"
+    }
+]

@@ -1,0 +1,328 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myvc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:26:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.12.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/9de36e6e2112409c9c4475374454f902/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.myvc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.12.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/9de36e6e2112409c9c4475374454f902/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.12.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/9de36e6e2112409c9c4475374454f902/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.myvc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.12.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/9de36e6e2112409c9c4475374454f902/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/9de36e6e2112409c9c4475374454f902/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:5:5-52:19
+21        android:allowBackup="true"
+21-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.12.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/9de36e6e2112409c9c4475374454f902/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:10:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:12:9-35
+31        android:theme="@style/Theme.MyVC" >
+31-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:13:9-42
+32        <activity
+32-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:15:9-21:20
+33            android:name="com.example.myvc.authorization.student.StudentActivity"
+33-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:16:13-66
+34            android:exported="false" >
+34-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:17:13-37
+35            <meta-data
+35-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:18:13-20:35
+36                android:name="android.app.lib_name"
+36-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:19:17-52
+37                android:value="" />
+37-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:20:17-33
+38        </activity>
+39        <activity
+39-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:22:9-28:20
+40            android:name="com.example.myvc.authorization.lecturer.LecturerActivity"
+40-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:23:13-68
+41            android:exported="false" >
+41-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:24:13-37
+42            <meta-data
+42-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:18:13-20:35
+43                android:name="android.app.lib_name"
+43-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:19:17-52
+44                android:value="" />
+44-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:20:17-33
+45        </activity>
+46        <activity
+46-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:29:9-35:20
+47            android:name="com.example.myvc.authorization.admin.AdminActivity"
+47-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:30:13-62
+48            android:exported="false" >
+48-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:31:13-37
+49            <meta-data
+49-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:18:13-20:35
+50                android:name="android.app.lib_name"
+50-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:19:17-52
+51                android:value="" />
+51-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:20:17-33
+52        </activity>
+53        <activity
+53-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:36:9-38:40
+54            android:name="com.example.myvc.authentication.LoginActivity"
+54-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:37:13-57
+55            android:exported="false" />
+55-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:38:13-37
+56        <activity
+56-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:39:9-41:40
+57            android:name="com.example.myvc.authentication.RegisterActivity"
+57-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:40:13-60
+58            android:exported="false" />
+58-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:41:13-37
+59        <activity
+59-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:42:9-51:20
+60            android:name="com.example.myvc.main.MainActivity"
+60-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:43:13-46
+61            android:exported="true"
+61-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:45:13-36
+62            android:theme="@style/Theme.App.SplashScreen" >
+62-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:44:13-58
+63            <intent-filter>
+63-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:46:13-50:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:47:17-69
+64-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:47:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:49:17-77
+66-->/Users/thiperamela/Desktop/MyVC-Mobile-APP/MyVC-Mobile-APP/app/src/main/AndroidManifest.xml:49:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:29:9-46:20
+70            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+70-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:30:13-80
+71            android:excludeFromRecents="true"
+71-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:31:13-46
+72            android:exported="true"
+72-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:32:13-36
+73            android:launchMode="singleTask"
+73-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:33:13-44
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+74-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:34:13-72
+75            <intent-filter>
+75-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:35:13-45:29
+76                <action android:name="android.intent.action.VIEW" />
+76-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:36:17-69
+76-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:36:25-66
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:38:17-76
+78-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:38:27-73
+79                <category android:name="android.intent.category.BROWSABLE" />
+79-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:39:17-78
+79-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:39:27-75
+80
+81                <data
+81-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:41:17-44:51
+82                    android:host="firebase.auth"
+82-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:42:21-49
+83                    android:path="/"
+83-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:43:21-37
+84                    android:scheme="genericidp" />
+84-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:44:21-48
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:47:9-64:20
+88            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+88-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:48:13-79
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:49:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:50:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:51:13-44
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+92-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:52:13-72
+93            <intent-filter>
+93-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:53:13-63:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:36:17-69
+94-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:36:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:38:17-76
+96-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:38:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:39:17-78
+97-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:39:27-75
+98
+99                <data
+99-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:41:17-44:51
+100                    android:host="firebase.auth"
+100-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:42:21-49
+101                    android:path="/"
+101-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:43:21-37
+102                    android:scheme="recaptcha" />
+102-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:44:21-48
+103            </intent-filter>
+104        </activity>
+105
+106        <service
+106-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:66:9-72:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:67:13-84
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:68:13-37
+110            <meta-data
+110-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:69:13-71:85
+111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+111-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:70:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-auth:22.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/ffdb3865a6fd4a87143020aaeab26fbb/transformed/firebase-auth-22.2.0/AndroidManifest.xml:71:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-database:20.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/3e055f2c4672151149e958ad93a80da2/transformed/firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+114                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+114-->[com.google.firebase:firebase-database:20.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/3e055f2c4672151149e958ad93a80da2/transformed/firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-database:20.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/3e055f2c4672151149e958ad93a80da2/transformed/firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-database:20.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/3e055f2c4672151149e958ad93a80da2/transformed/firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+117                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+117-->[com.google.firebase:firebase-database:20.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/3e055f2c4672151149e958ad93a80da2/transformed/firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-database:20.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/3e055f2c4672151149e958ad93a80da2/transformed/firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/eb4452299c136c4aa73f0916a821521e/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+120                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+120-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/eb4452299c136c4aa73f0916a821521e/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/eb4452299c136c4aa73f0916a821521e/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+123                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+123-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+125        </service>
+126
+127        <provider
+127-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+128            android:name="com.google.firebase.provider.FirebaseInitProvider"
+128-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+129            android:authorities="com.example.myvc.firebaseinitprovider"
+129-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:20.4.2] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/19181b086bd2c3c3c30f12b37ae66f0c/transformed/firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:18.1.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/e0b36ff2cae6a58947e5eb5952a54eea/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:18.1.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/e0b36ff2cae6a58947e5eb5952a54eea/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:18.1.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/e0b36ff2cae6a58947e5eb5952a54eea/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:18.1.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/e0b36ff2cae6a58947e5eb5952a54eea/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.1.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/f2a25603c9a2c473e2301b1a3db1b75c/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.1.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/f2a25603c9a2c473e2301b1a3db1b75c/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.1.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/f2a25603c9a2c473e2301b1a3db1b75c/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+142
+143        <provider
+143-->[androidx.emoji2:emoji2:1.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/1d26e3d91d122686a33e626c6b7a984e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+144            android:name="androidx.startup.InitializationProvider"
+144-->[androidx.emoji2:emoji2:1.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/1d26e3d91d122686a33e626c6b7a984e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+145            android:authorities="com.example.myvc.androidx-startup"
+145-->[androidx.emoji2:emoji2:1.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/1d26e3d91d122686a33e626c6b7a984e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+146            android:exported="false" >
+146-->[androidx.emoji2:emoji2:1.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/1d26e3d91d122686a33e626c6b7a984e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+147            <meta-data
+147-->[androidx.emoji2:emoji2:1.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/1d26e3d91d122686a33e626c6b7a984e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+148                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+148-->[androidx.emoji2:emoji2:1.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/1d26e3d91d122686a33e626c6b7a984e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+149                android:value="androidx.startup" />
+149-->[androidx.emoji2:emoji2:1.2.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/1d26e3d91d122686a33e626c6b7a984e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+150            <meta-data
+150-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/583580eb62c9d97d19a73ca43765c174/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+151                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+151-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/583580eb62c9d97d19a73ca43765c174/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+152                android:value="androidx.startup" />
+152-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/583580eb62c9d97d19a73ca43765c174/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+153            <meta-data
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+155                android:value="androidx.startup" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+156        </provider>
+157
+158        <receiver
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+159            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+160            android:directBootAware="false"
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+161            android:enabled="true"
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+162            android:exported="true"
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+163            android:permission="android.permission.DUMP" >
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+165                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+166            </intent-filter>
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+168                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+169            </intent-filter>
+170            <intent-filter>
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+171                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+172            </intent-filter>
+173            <intent-filter>
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+174                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/thiperamela/Downloads/AuthenticationApp 6/caches/transforms-3/b453e230d2854d106429dff4e0d044ed/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+175            </intent-filter>
+176        </receiver>
+177    </application>
+178
+179</manifest>

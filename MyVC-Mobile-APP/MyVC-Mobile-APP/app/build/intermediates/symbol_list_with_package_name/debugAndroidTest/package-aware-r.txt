@@ -1,0 +1,3 @@
+com.example.myvc.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
